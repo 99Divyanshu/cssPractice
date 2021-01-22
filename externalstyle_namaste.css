@@ -1,4 +1,8 @@
 
+            body
+            {
+                font-size: 25px;
+            }
             .orange
             {
                 color: orange;
@@ -7,11 +11,13 @@
             .underline
             {
                 text-decoration: underline;
+                font-size: 1.2em;/*1.2 times the 25px for those components invoking the underline class.*/
             }
             h2
             {
                 /*background-color:aliceblue;*/
                 color: bisque;
                 border-bottom: thistle 3 px solid;
+                font-size: 150% /*relative to 25px bcz its the parent in hierarchy for all body elements*/
             }
     
