@@ -1,23 +1,51 @@
 
             body
             {
+                background-image: linear-gradient(white,grey);
                 font-size: 25px;
-            }
-            .orange
-            {
-                color: orange;
-                font-size: medium;
-            }
-            .underline
-            {
-                text-decoration: underline;
-                font-size: 1.2em;/*1.2 times the 25px for those components invoking the underline class.*/
             }
             h2
             {
                 /*background-color:aliceblue;*/
+                text-decoration: underline  overline ;
+
                 color: bisque;
-                border-bottom: thistle 3 px solid;
-                font-size: 150% /*relative to 25px bcz its the parent in hierarchy for all body elements*/
+                               /*border-bottom: thistle 3 px solid;*/
+                font-size: 250% /*relative to 25px bcz its the parent in hierarchy for all body elements*/
+                
+            }
+            .orange
+            {
+                color: orange;
+                /*font-size: medium;*/
+            }
+            .underline
+            {
+                text-decoration: underline;
+                font-size: 0.7em;/*1.2 times the 25px for those components invoking the underline class.*/
+                line-height: 1.5em;
+            }
+            p.para
+            {
+                color: brown;
+                font-size: 0.7em;
+                line-height: 1.5em;
+                background-color: silver;
+                padding: 20px;
+                border-color: yellow;
+                border-width: 4px;
+                border-style: dashed;
+            }
+            p.para2
+            {
+                color: brown;
+                font-size: 0.7em;
+                line-height: 1.5em;
+                background-color: silver;
+                padding: 20px;
+                border-color: yellow;
+                border-width: 4px;
+                border-style: dashed;
+                margin: 20px;
             }
     
