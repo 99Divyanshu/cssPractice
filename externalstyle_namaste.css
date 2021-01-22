@@ -1,0 +1,17 @@
+
+            .orange
+            {
+                color: orange;
+                font-size: medium;
+            }
+            .underline
+            {
+                text-decoration: underline;
+            }
+            h2
+            {
+                /*background-color:aliceblue;*/
+                color: bisque;
+                border-bottom: thistle 3 px solid;
+            }
+    
