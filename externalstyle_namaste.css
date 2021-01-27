@@ -90,12 +90,30 @@
         padding-top: 0.5px;
         border-radius: 5px;
     }
-    #navbar
+    #navbar ul
     {
+        padding: 5px;
+        list-style-type:none ;
+        text-align: center;
         background-color: #363535;
         margin:10px;
-        height:45px;
         border-radius: 5px;
+    }
+    #navbar ul li
+    {
+        display: inline;
+    }
+    #navbar ul li a
+    {
+        background-color:#363535 ;
+        text-decoration: none;
+        color: blanchedalmond;
+        padding: .2em 1em;
+    }
+    #navbar ul li a:hover
+    {
+        color: #363535;
+        background-color:blanchedalmond;
     }
     .field
     {
